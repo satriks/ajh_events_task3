@@ -1,0 +1,89 @@
+
+body {
+  color: #520909d1;
+}
+.hidden {
+  display: none;
+}
+
+.image-form{
+  width: 60%;
+  height: 400px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-form__name > p,
+.image-form__url > p {
+  display: inline-block;;
+}
+
+.image-form__name,
+.image-form__url {
+  width: 100%;
+  text-align: end;
+}
+
+.image-form__name > input,
+.image-form__url > input{
+  width: 70%;
+  margin-right: 30px;
+}
+
+.image {
+  /* content: " " */
+  padding-left: 30px;
+  padding-right: 0px;
+  margin-top: 50px;
+  width: 30%;
+  max-height: 200px;
+  object-fit: scale-down;
+}
+
+/* .image-wrapper{
+  display: inline-block;
+  position: static;
+  padding-left: 30px;
+  padding-right: 0px;
+  margin-top: 50px;
+  width: 30%;
+  max-height: 200px;
+}
+.image-wrapper::after {
+  position: relative;
+  content: "×";
+  color: red;
+  font-size: 30px;
+  top: 0;
+  right: 0;
+  
+  z-index: 5;
+} */
+
+.addImage {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 50px;
+
+  
+}
+/*  
+.close {
+  display: block;
+  width: 30px;
+  height: 30px;
+  --weight: 3px;
+  --aa: 1px; / anti-aliasing /
+  --color: red;
+  border-radius: 3px;
+  background:
+    linear-gradient(45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa))),
+    linear-gradient(-45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa)));
+}
+*/
