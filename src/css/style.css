@@ -35,35 +35,42 @@ body {
   margin-right: 30px;
 }
 
+.images{
+  position: static;
+}
 .image {
   /* content: " " */
-  padding-left: 30px;
-  padding-right: 0px;
-  margin-top: 50px;
-  width: 30%;
-  max-height: 200px;
+  /* padding-left: 30px; */
+  /* padding-right: 0px; */
+  /* margin-top: 50px; */
+  width: 100%;
   object-fit: scale-down;
+  max-height: 250px;
+
 }
 
-/* .image-wrapper{
+ .image-wrapper{
   display: inline-block;
   position: static;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   padding-right: 0px;
   margin-top: 50px;
   width: 30%;
-  max-height: 200px;
+  max-height: 250px;
+  border: 1px solid black;
 }
+
 .image-wrapper::after {
   position: relative;
   content: "×";
   color: red;
   font-size: 30px;
-  top: 0;
-  right: 0;
-  
+  top: -260px;
+  border: 2px solid red;
+  border-radius: 100px;
+  right: -95%;
   z-index: 5;
-} */
+}
 
 .addImage {
   width: 200px;
